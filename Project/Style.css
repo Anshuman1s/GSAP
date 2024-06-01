@@ -61,6 +61,12 @@ html,body{
 img{
     height: 400px;
     position: absolute;
-    top: 10%;
+    top: 12%;
     left: 40%;
+}
+#img1{
+    rotate: 20deg;
+}
+#img2{
+    rotate: 10deg;
 }
