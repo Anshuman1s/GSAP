@@ -8,19 +8,26 @@ html,body{
     height: 100%;
     width: 100%;
 }
+body{
+    overflow-x: hidden;
+}
 
 #page1{
     width: 100%;
     height: 100%;
-    background-color: royalblue;
+    background-color: rgb(130, 146, 194);
 }
 #page2{
     width: 100%;
     height: 100%;
-    background-color: rgb(53, 60, 80);
+    background-color: rgb(74, 106, 195);
 }
 #page3{
     width: 100%;
     height: 100%;
     background-color: rgb(46, 154, 190);
+}
+#page2 h1{
+    font-size: 40vw;
+    font-weight: 600;
 }
