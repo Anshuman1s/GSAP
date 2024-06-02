@@ -8,7 +8,5 @@ gsap.to("#page2 h1",{
         end:"top -100%",
         scrub:2,
         pin:true
-        
-
     }
 })
