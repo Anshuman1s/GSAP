@@ -12,15 +12,30 @@ html,body{
 #page1{
     height: 100vh;
     width: 100%;
-    background-color: rgb(140, 86, 42);
+    /* background-color: rgb(140, 86, 42); */
 }
 #page2{
     height: 100vh;
     width: 100%;
-    background-color: rgb(61, 165, 96);
+    /* background-color: rgb(61, 165, 96); */
 }
 #page3{
     height: 100vh;
     width: 100%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
+}
+#page2 #image-div{
+    height:100%;
+    width: 35%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    
+}
+#image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    scale: 1.8;
 }
