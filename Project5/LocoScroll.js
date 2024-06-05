@@ -1,3 +1,8 @@
+
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('#main'),
+    smooth: true
+});
 gsap.from("#page1 #box",{
     scale:0,
     duration:1,
@@ -25,9 +30,3 @@ gsap.from("#page3 #box",{
     start:"top 50%",
     marker:true,
 })
-import LocomotiveScroll from 'locomotive-scroll';
-
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('[data-scroll-container]'),
-    smooth: true
-});
