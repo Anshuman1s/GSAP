@@ -18,10 +18,13 @@ setInterval(function(){
     }else{
         h5timer.innerHTML = grow
     }
-},33)
+},27)
     }
 });
-
+tl.to(".line h2",{
+    animation:"anime",
+    opacity:1,
+})
 tl.to("#loader",{
     opactiy:0,
     duration:0.2,
@@ -31,6 +34,7 @@ tl.from("#page1",{
     delay:0.2,
     y:1600,
     opacity:0,
+    duration:0.5,
     ease:Power4
     
 })

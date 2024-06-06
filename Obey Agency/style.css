@@ -15,7 +15,7 @@ html,body{
     width: 100%;
     position: fixed;
     z-index: 9999;
-    background-color: #030303;
+    background-color: #0B0B0B;
     padding: 25vh 10vw;
 }
 .line h1{
@@ -52,12 +52,48 @@ html,body{
     text-align: right;
 }
 .line h2{
-    font-size:5.5vw;
+    font-size:3.7vw;
     text-transform: uppercase;
+    opacity: 0;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+}
+
+/* Animation Part */
+@keyframes anime {
+    0%{
+        font-family: "Plain Light";
+        -webkit-text-stroke: 1px #fff;
+        color: #fff;
+        font-weight: 500;
+        opacity: 1;
+    }
+    48%{
+        font-family: "Plain Light";
+        -webkit-text-stroke: 1px #fff;
+        color: #fff;
+        font-weight: 500;
+        opacity: 0;
+    }
+
+    50%{
+        font-family: "Silk serif";
+        -webkit-text-stroke: 1px #fff;
+        font-weight: 500;
+        color: transparent;
+        opacity: 1;
+    }
+    100%{
+        font-family: "Silk serif";
+        -webkit-text-stroke: 1px #fff;
+        font-weight: 500;
+        color: transparent;
+        opacity: 0;
+    }
 }
 #main{
     position: relative;
-    background-color: #111;
+    background-color: #030303;
 }
 #page1{
     width: 100%;
