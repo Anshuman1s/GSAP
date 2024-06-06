@@ -14,8 +14,8 @@ html,body{
     height: 100%;
     width: 100%;
     position: fixed;
-    z-index: 999;
-    background-color: #0B0B0B;
+    z-index: 9999;
+    background-color: #030303;
     padding: 25vh 10vw;
 }
 .line h1{
@@ -38,7 +38,7 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1.2vw;
+    gap: 1vw;
 }
 #line1-part1 h5, #line1-part1 h6{
     font-size: 4vw;
@@ -62,5 +62,5 @@ html,body{
 #page1{
     width: 100%;
     height: 100vh;
-    background-color:white;
+    background-color:#151515;
 } 

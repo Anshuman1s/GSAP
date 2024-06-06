@@ -5,7 +5,7 @@ tl.from(".line h1",{
     durarion:0.6,
     delay:0.5,
 })
-tl.from("#line1-part1, .line h2",{
+tl.from("#line1-part1",{
     opacity:0,
     onStart:function(){
         var h5timer = document.querySelector("#line1-part1 h5")
@@ -20,15 +20,20 @@ setInterval(function(){
     }
 },33)
     }
-})
+});
 
 tl.to("#loader",{
     opactiy:0,
-    duration:0.4,
-    delay:4
+    duration:0.2,
+    delay:4,
 })
 tl.from("#page1",{
-    y:1200,
+    delay:0.2,
+    y:1600,
     opacity:0,
+    ease:Power4
     
+})
+tl.to("#loader",{
+    display:"none", 
 })
